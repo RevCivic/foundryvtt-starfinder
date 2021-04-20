@@ -73,11 +73,11 @@ Hooks.once('init', async function () {
 
     CONFIG.statusEffects = CONFIG.SFRPG.statusEffectIcons;
 
-    CONFIG.fontFamilies.push("Exo 2");
-    CONFIG.defaultFontFamily = "Exo 2";
+    CONFIG.fontFamilies.push("Exo2");
+    CONFIG.defaultFontFamily = "Exo2";
 
     CONFIG.canvasTextStyle = new PIXI.TextStyle({
-        fontFamily: "Exo 2",
+        fontFamily: "Exo2",
         fontSize: 36,
         fill: "#FFFFFF",
         stroke: "#111111",
